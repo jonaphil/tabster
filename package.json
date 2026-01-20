@@ -11,6 +11,9 @@
     "files": [
         "dist"
     ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/jonaphil/tabster"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/microsoft/tabster"
