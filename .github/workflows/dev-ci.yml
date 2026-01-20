@@ -33,8 +33,8 @@ jobs:
       # Configure npm to use GitHub Packages with the workflow token
       - name: Configure npm auth
         run: |
-          echo "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" > ~/.npmrc
           echo "@${GITHUB_REPOSITORY_OWNER}:registry=https://npm.pkg.github.com" >> ~/.npmrc
+          echo "//npm.pkg.github.com/:_authToken=${GITHUB_TOKEN}" > ~/.npmrc
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
