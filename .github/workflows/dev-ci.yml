@@ -21,6 +21,7 @@ jobs:
         with:
           node-version: '24'
           registry-url: 'https://npm.pkg.github.com'
+          scope: '@jonaphil'
 
       # Optional: install dependencies / build
       - name: Install dependencies
