@@ -1,6 +1,6 @@
 {
-    "name": "tabster",
-    "version": "8.7.0",
+    "name": "@jonaphil/tabster",
+    "version": "8.7.2",
     "description": "Focus Management Tools for Web",
     "author": "Marat Abdullin <marata@microsoft.com>",
     "license": "MIT",
@@ -12,11 +12,11 @@
         "dist"
     ],
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/jonaphil/tabster"
+        "registry": "https://npm.pkg.github.com/"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/microsoft/tabster"
+        "url": "git+https://npm.pkg.github.com/jonaphil/tabster"
     },
     "scripts": {
         "build": "npm run clean && npm run build-bundle && npm run build-storybook",
